@@ -15,7 +15,6 @@ import java.util.Scanner;
 public class ConsomeCEP {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         String continuar = "Sim";
 
         while (continuar.equalsIgnoreCase("Sim")) {
@@ -72,6 +71,5 @@ public class ConsomeCEP {
             continuar = JOptionPane.showInputDialog("Deseja continuar? (Sim/Não)");
         }
 
-        scanner.close();
     }
 }
