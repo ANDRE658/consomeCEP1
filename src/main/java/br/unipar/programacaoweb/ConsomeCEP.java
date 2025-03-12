@@ -55,8 +55,8 @@ public class ConsomeCEP {
                 if (dao.buscarPorCep(endereco.getCep()) == null) {
                     endereco.setData(dataFormatada);
                     dao.salvar(endereco);
-
-                    JOptionPane.showMessageDialog(null,"Endereço salvo com sucesso!\n"+"Cidade: " + endereco.getLocalidade() + "\n" + "Estado: " + endereco.getUf());
+                    JOptionPane.showMessageDialog(null,"Endereço salvo com sucesso!\n"+"Cidade: " +
+                            endereco.getLocalidade() + "\n" + "Estado: " + endereco.getUf() + "\n" + "Data: " + dataFormatada);
                 } else {
                     JOptionPane.showMessageDialog(null,"Endereço já cadastrado no banco de dados.");
                 }

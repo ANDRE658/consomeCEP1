@@ -61,7 +61,8 @@ public class EnderecoDao {
         } catch (Exception e) {
             e.printStackTrace();
             return null;
-
+        }finally {
+            em.close();
         }
     }
 }
