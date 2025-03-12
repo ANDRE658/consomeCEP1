@@ -1,9 +1,13 @@
-1️⃣ Usuário digita um CEP em uma janela de entrada.
-2️⃣ O programa de consulta de dados na API ViaCEP .
-3️⃣ Exiba as informações do endereço na tela.
-4️⃣ Verifique se o CEP já está salvo no banco de dados .
-  Se não estiver , ele salva .
-  Se já existir , avisa o usuário.
-5️⃣ Pergunte se o usuário quer continuar .
-  Se sim , volta ao passo 1.
-  Se não , o programa encerra .
+O usuário insere um CEP em um campo de entrada.
+
+O programa de consulta de dados na API ViaCEP.
+
+As informações do endereço são exibidas na tela.
+
+O sistema verifica se o CEP já está armazenado no banco de dados:
+Se não estiver, ele está salvo.
+Se já existir, o usuário receberá um aviso.
+
+O usuário está questionado se deseja continuar:
+Se sim, retorna ao passo 1.
+Se não, o programa está finalizado.
